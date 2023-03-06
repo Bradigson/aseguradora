@@ -55,7 +55,7 @@ const Form = ()=>{
                 method: 'POST',
                 url: 'https://www.apiaseguradora.somee.com/api/Aseguradora/create',
                 headers: {
-                Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJCcmFkaWdzb24iLCJuYmYiOjE2NzgwMjM4MzgsImV4cCI6MTY3ODExMDIzOCwiaWF0IjoxNjc4MDIzODM4fQ.cYBBh7to9yI4qTRoHX_VvHdSxN3Dghd_M0oFVsickQY'
+                Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJicmFkaWdzb24iLCJuYmYiOjE2NzgxMTI4OTUsImV4cCI6MTY4MDI3Mjg5NSwiaWF0IjoxNjc4MTEyODk1fQ.J9pWDgip3sPc6ncEAoccRZYRL6hptqPybrAXJUo5b00'
                 },
                 data: {nombre: create.nombre, comision: create.comision, estado: stado}
             };

@@ -68,7 +68,7 @@ const Login = ()=>{
                     <input type="text" className="form-control" placeholder="Username" name="name" value={loginCreate.name} onChange={handleName} onClick={()=> handleClear()}/>
                 </div>
                 <div>
-                    <input type="text" className="form-control" placeholder="password" name="password" value={loginCreate.password} onChange={handlePassword} onClick={()=> handleClear()}/>
+                    <input type="password" className="form-control" placeholder="password" name="password" value={loginCreate.password} onChange={handlePassword} onClick={()=> handleClear()}/>
                 </div>
                 <div className="login-form_button">
                     <button onClick={(e)=> handleLogin(e)}>LOGGIN</button>

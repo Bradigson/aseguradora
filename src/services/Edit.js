@@ -33,7 +33,7 @@ const deleteAsguradora = async (state, id, token)=>{
     url: 'https://www.apiaseguradora.somee.com/api/Aseguradora/id',
     params: {id: id},
     headers: {
-        Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJzdHJpbmciLCJuYmYiOjE2NzgwNTIyNDYsImV4cCI6MTY4MDIxMjI0NiwiaWF0IjoxNjc4MDUyMjQ2fQ.KohUfZmW5JLpTydCEUTUN2dl9Yg6vo4LVggf7pHiKog'
+        Authorization: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiJicmFkaWdzb24iLCJuYmYiOjE2NzgxMTI4OTUsImV4cCI6MTY4MDI3Mjg5NSwiaWF0IjoxNjc4MTEyODk1fQ.J9pWDgip3sPc6ncEAoccRZYRL6hptqPybrAXJUo5b00'
     },
     data: {id: 1}
     };
